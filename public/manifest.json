@@ -1,0 +1,21 @@
+{
+  "name": "ITCtable Duty Scheduling",
+  "short_name": "ITCtable",
+  "description": "Duty tracking schedule and roster viewer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0514",
+  "theme_color": "#0b0514",
+  "icons": [
+    {
+      "src": "/assets/favicon/favicon-aprify.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/favicon-aprify.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
