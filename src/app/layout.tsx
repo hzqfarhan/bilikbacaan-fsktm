@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "ITCtable | Duty Scheduling",
+  title: "ITCtable",
   description: "Schedule tracker for duty rosters.",
   manifest: "/manifest.json",
   appleWebApp: {
@@ -23,8 +23,13 @@ export const metadata: Metadata = {
     title: "ITCtable",
   },
   icons: {
-    icon: "/logoitc.png",
-    apple: "/logoitc.png",
+    icon: [
+      { url: "/logoitc.png" },
+      { url: "/logoitc.png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/logoitc.png" },
+    ],
   }
 };
 
